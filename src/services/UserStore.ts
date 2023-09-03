@@ -18,8 +18,7 @@ export class UserStore implements IUserStore {
 
     findFilesPath(filePath: string) {
         const storageEnv = process.env.NODE_ENV || "development";
-        const allUsers = this.data
-                                .getUsers();
+        const allUsers = this.data.getUsers();
 
         const foundFilePath: User[] = [];
 

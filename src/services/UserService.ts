@@ -12,7 +12,6 @@ export class UserService implements IUserService {
     }
 
     find(id: string) {
-        // ... fetch user files based on environment ...
             const user = this.userStore.find(id);
             if (!user) {
                 throw new Error("User not found!");

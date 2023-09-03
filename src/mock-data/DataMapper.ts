@@ -28,6 +28,7 @@ export class DataMapper {
         const foundFiles = users.map(user =>
             user.storage.filter(item => item.userStorage === storage)
         ).flat();
+
         return foundFiles;
     }
 
