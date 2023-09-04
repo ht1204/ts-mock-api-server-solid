@@ -267,7 +267,7 @@ Given that env variable: `NODE_ENV=test`
     ```
 Note: you can check that the new user o users with their new added files using the endpoints `/users` and `/users/:id`.
 
-Feel free to keep practice with this ts-mock-api with SOLID Principles and why not, create tour version.
+Feel free to keep practice with this ts-mock-api with SOLID Principles and why not, create your own version.
 
 Have fun and enjoy!
 
