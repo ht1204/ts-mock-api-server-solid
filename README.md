@@ -2,7 +2,7 @@
 ## A Mock API Server with SOLID Principles
 
 ### Annotations
-- The goal was refactor the initial architecture proposed in package `server-original`.
+- The goal was refactorizing the initial architecture proposed in package `server-original`.
 - Apply and implement SOLID principles.
 - Provide a technical sense for operation, a mock data that contains info about users and their storaged files in environments.
 - Principles like Single Responsability, Open-Closed and Dependency Inversion were applied with Singleton Pattern for data mapping.
